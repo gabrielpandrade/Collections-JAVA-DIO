@@ -7,25 +7,15 @@ import dio.collections.map.MapsDIO;
 import dio.collections.map.ordenando.OrdenandoMaps;
 import dio.collections.set.SetsDIO;
 import dio.collections.set.ordenando.OrdenandoSets;
+import dio.collections.stream.classeAnonima.Anonima;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MapsDIO maps = new MapsDIO();
-        SetsDIO sets = new SetsDIO();
-        ListsDIO lists = new ListsDIO();
-        OrdenandoMaps mapsOrdenados = new OrdenandoMaps();
-        OrdenandoSets setsOrdenados = new OrdenandoSets();
-        OrdenandoLists listsOrdenadas = new OrdenandoLists();
-        //lists.exercitandoLists();
-        //listsOrdenadas.ordenacaoList();
-        //sets.exercitandoSets();
-        //setsOrdenados.ordenacaoSets();
-        //maps.exercitandoMaps();
-        mapsOrdenados.ordenacaoMap();
+        Anonima classeAnonima = new Anonima();
 
-        //Ex01 exercicio1 = new Ex01();
+        classeAnonima.classeAnonima();
     }
 }
